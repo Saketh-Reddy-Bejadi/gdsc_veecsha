@@ -1,5 +1,8 @@
 import { Link } from "react-router-dom";
 import "./Footer.css";
+import home from "../assets/home.svg"
+import services from "../assets/services.svg"
+import webdev from "../assets/webdev.svg"
 
 
 export const Footer = () => {
@@ -8,9 +11,16 @@ export const Footer = () => {
         <div className="Sub1">
         <div className="QuickLinks" >
             <p className="FHead" >HELPFUL LINKS</p>
-            <Link to="/" className="FContent" >Home</Link>
-            <Link to="/Services" className="FContent" >Services</Link>
-            <Link to="/WebDev" className="FContent" >Web Dev</Link>
+            <Link to="/" className="FContent" >
+              <img className="logos" src={home} alt="" />
+              <p>Home</p>
+              </Link>
+            <Link to="/Services" className="FContent" >
+              <img className="logos" src={services} alt="" />
+              <p>Services</p></Link>
+            <Link to="/WebDev" className="FContent" >
+            <img className="logos" src={webdev} alt="" />
+            Web Dev</Link>
             <Link to="/DSA" className="FContent" >DSA</Link>
         </div>
         <div className="Contact">

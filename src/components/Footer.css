@@ -20,18 +20,24 @@ footer{
     text-align: center;
     margin: 40px 0px 20px 0px;
 }
-.FContent::before{
+/* .FContent::before{
     content: "⤿";
     display: inline-block;
     width: 15px;
     margin: 0px 10px 0px 0px;
-}
+} */
 .FContent{
     font-size: 16px;
     padding: 5px 0px;
+    display: flex;
+    gap: 5px;
+    align-items: center;
 }
 a{
     display: block;
+}
+.logos{
+    width: 20px;
 }
 @media only screen and (max-width: 600px) {
     .Sub1{
