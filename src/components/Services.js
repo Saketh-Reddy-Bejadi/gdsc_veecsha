@@ -8,7 +8,7 @@ export const Services = () => {
     const scrollOptions = {
       behavior: 'smooth',
     };
-    const mobileScrollPosition = 720;
+    const mobileScrollPosition = 750;
     const desktopScrollPosition = 630;
     const isMobile = window.matchMedia('(max-width: 768px)').matches;
     const scrollPosition = isMobile ? mobileScrollPosition : desktopScrollPosition;

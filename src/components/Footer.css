@@ -13,19 +13,23 @@ footer{
     flex-wrap: wrap;
 }
 .FHead{
-    font-size: 18px;
+    font-size: 21px;
     margin: 0px 0px 10px 0px;
 }
 .copyRight{
     text-align: center;
-    margin: 40px 0px 10px 0px;
+    margin: 40px 0px 20px 0px;
 }
-/* .QuickLinks .FContent::before{
-    content: url("../assets/link.svg");
+.FContent::before{
+    content: "⤿";
     display: inline-block;
     width: 15px;
     margin: 0px 10px 0px 0px;
-} */
+}
+.FContent{
+    font-size: 16px;
+    padding: 5px 0px;
+}
 a{
     display: block;
 }
