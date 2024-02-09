@@ -3,6 +3,7 @@ import "./Footer.css";
 import home from "../assets/home.svg"
 import services from "../assets/services.svg"
 import webdev from "../assets/webdev.svg"
+import dsa from "../assets/dsa.svg"
 
 
 export const Footer = () => {
@@ -21,7 +22,9 @@ export const Footer = () => {
             <Link to="/WebDev" className="FContent" >
             <img className="logos" src={webdev} alt="" />
             Web Dev</Link>
-            <Link to="/DSA" className="FContent" >DSA</Link>
+            <Link to="/DSA" className="FContent" >
+              <img className="logos" src={dsa} alt="" />
+              DSA</Link>
         </div>
         <div className="Contact">
             <p className="FHead" >CONNECT WITH US</p>
