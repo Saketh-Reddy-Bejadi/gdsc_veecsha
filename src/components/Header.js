@@ -8,7 +8,7 @@ export const Header = ({MenuOpen,toggleMenu,viewBox,isOpened}) => {
   return (
     <header>
         <div className='navbar'>
-          <a href='/' id='brnd' className='brnd' >Veecsha</a>
+          <a href='/' id='brnd' className='brnd' >VeeKsha</a>
           <div className='NavPart2' >
           <ul>
             <Link to="/WebDev"><li className='navBtn webBtn' >Web Development</li></Link>
