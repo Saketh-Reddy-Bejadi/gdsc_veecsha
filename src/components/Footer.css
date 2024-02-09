@@ -1,0 +1,38 @@
+footer{
+    width: 100%;
+    background-color:#0e1319fc;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 60px 60px 0px 60px;
+}
+.Sub1{
+    display: flex;
+    justify-content: space-around;
+    padding:0px 90px;
+    flex-wrap: wrap;
+}
+.FHead{
+    font-size: 18px;
+    margin: 0px 0px 10px 0px;
+}
+.copyRight{
+    text-align: center;
+    margin: 40px 0px 10px 0px;
+}
+/* .QuickLinks .FContent::before{
+    content: url("../assets/link.svg");
+    display: inline-block;
+    width: 15px;
+    margin: 0px 10px 0px 0px;
+} */
+a{
+    display: block;
+}
+@media only screen and (max-width: 600px) {
+    .Sub1{
+        gap: 50px;
+        padding: 0px;
+        justify-content: start;
+    }
+}

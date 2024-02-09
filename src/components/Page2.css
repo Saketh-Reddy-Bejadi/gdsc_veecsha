@@ -1,0 +1,37 @@
+.Page2{
+    background-color: #0E1319;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: 70px;
+    
+}
+.Head2{
+    font-size: 38px;
+    margin: 0px 0px 50px 0px;
+    text-align: center;
+    padding:0px 5px;
+}
+.SubHead {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+}
+.CardSub{
+    font-size: 20px;
+    margin: 0px 0px 10px;
+    font-weight: 450;
+}
+.Card{
+    width: 340px;
+    border: 1px solid rgb(198, 185, 255);
+    border-radius: 20px;
+    padding: 32px;
+}
+.CardContent{
+    color:rgba(211, 211, 211, 0.709);
+}
+.logo{
+    width: 70px;
+}

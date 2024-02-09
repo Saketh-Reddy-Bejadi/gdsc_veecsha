@@ -1,0 +1,46 @@
+.Page1{
+    width: 100%;
+    height: 100svh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 90px;
+}
+.Con1{
+    width: 500px;
+    padding: 25px;
+    /* border: 1px dashed rgba(128, 128, 128, 0.345);
+    border-radius: 20px;
+    box-shadow: 0px 0px 40px 1px rgba(255, 255, 255, 0.154); */
+}
+.Head1{
+    font-size: 38px;
+    font-weight:500;
+    color: rgba(255, 255, 255, 0.786);
+    line-height: 1.2;
+}
+.Body1{
+    margin:20px 0px 0px 0px;
+    color: gray;
+    font-size: 19px;
+}
+.btns{
+    display: none;
+}
+
+@media only screen and (max-width: 600px) {
+    .Head1{
+        font-size: 2rem;
+    }
+    .Body1{
+        font-size: 1rem;
+    }
+    
+    .navBtn{
+        display: block;
+        margin:15px 0px 15px 0px;
+        border-radius: 10px;
+        text-align: center;
+        font-size: 16px;
+    }
+}
