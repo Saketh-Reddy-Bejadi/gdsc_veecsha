@@ -4,6 +4,11 @@ import home from "../assets/home.svg"
 import services from "../assets/services.svg"
 import webdev from "../assets/webdev.svg"
 import dsa from "../assets/dsa.svg"
+import twitter from "../assets/twitter.svg"
+import facebook from "../assets/facebook.svg"
+import instagram from "../assets/instagram.svg"
+import linkedin from "../assets/linkedin.svg"
+import mail from "../assets/mail.svg"
 
 
 export const Footer = () => {
@@ -28,15 +33,17 @@ export const Footer = () => {
         </div>
         <div className="Contact">
             <p className="FHead" >CONNECT WITH US</p>
-            <a href="#0"><p className="FContent" >Linkedin</p></a>
-            <a href="#0" className="FContent" >Twitter</a>
-            <a href="#0" className="FContent" >Facebook</a>
-            <a href="#0" className="FContent" >Instagram</a>
+            <a href="#0"><p className="FContent" ><img className="logos" src={linkedin} alt="" />Linkedin</p></a>
+            <a href="#0" className="FContent" >
+            <img className="logos" src={twitter} alt="" />
+              Twitter</a>
+            <a href="#0" className="FContent" ><img className="logos" src={facebook} alt="" />Facebook</a>
+            <a href="#0" className="FContent" ><img className="logos" src={instagram} alt="" />Instagram</a>
         </div>
         <div className="Contact">
             <p className="FHead" >GET IN TOUCH</p>
-            <a href="#0"><p className="FContent" >webdev@veecsha.in</p></a>
-            <a href="#0" className="FContent" >dsa@veecsha.in</a>
+            <a href="#0"><p className="FContent" ><img className="logos" src={mail} alt="" />webdev@veecsha.in</p></a>
+            <a href="#0" className="FContent" ><img className="logos" src={mail} alt="" />dsa@veecsha.in</a>
         </div>
       </div>
       <div className="copyRight">
