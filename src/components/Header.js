@@ -11,8 +11,8 @@ export const Header = ({MenuOpen,toggleMenu,viewBox,isOpened}) => {
           <a href='/' id='brnd' className='brnd' >Veecsha</a>
           <div className='NavPart2' >
           <ul>
-            <Link to="/WebDev"><li className='navBtn webBtn' >Web Development🔥</li></Link>
-            <Link to="/DSA"><li className='navBtn dsaBtn'>Data Structures & Algorithms♾️</li></Link>
+            <Link to="/WebDev"><li className='navBtn webBtn' >Web Development</li></Link>
+            <Link to="/DSA"><li className='navBtn dsaBtn'>Data Structures & Algorithms</li></Link>
           </ul>
           <Menu MenuOpen={MenuOpen} toggleMenu={toggleMenu} isOpened={isOpened}/>
           <SideBar MenuOpen={MenuOpen} toggleMenu={toggleMenu} viewBox={viewBox}/>

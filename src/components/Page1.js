@@ -12,8 +12,8 @@ export const Page1 = () => {
           In a world buzzing with tech complexities, Veecsha is your shortcut to expertise without the overload. Bid farewell to the confusion and embrace a straightforward journey to mastering the essential tech know-how.
           </p>
           <div className='Buttons'>
-            <Link to="/WebDev" className='navBtn btns webBtn' >Web Development🔥</Link>
-            <Link to="/DSA" className='navBtn btns dsaBtn'>Data Structures & Algorithms♾️</Link>
+            <Link to="/WebDev" className='navBtn btns webBtn' >Web Development</Link>
+            <Link to="/DSA" className='navBtn btns dsaBtn'>Data Structures & Algorithms</Link>
           </div>
         </div>
     </div>
