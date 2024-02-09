@@ -27,3 +27,12 @@
 ::-webkit-scrollbar-thumb:hover{
   background: linear-gradient(#b573f8,#01A06B);
 }
+@media only screen and (max-width: 768px) {
+  ::-webkit-scrollbar {
+    width: 4.5px;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: linear-gradient(#01A06B,#b573f8);
+  }
+}
