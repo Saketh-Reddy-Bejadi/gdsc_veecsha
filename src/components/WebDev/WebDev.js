@@ -33,18 +33,18 @@ export const WebDev = () => {
         </p>
         <ul className="wBasic">
           <li>
-            <span className="webSubhead">Front-end development:</span> Designing
+            <span className="webSidehead">Front-end development:</span> Designing
             and building the visual elements and interactive features users see
             and interact with directly. This involves languages like HTML, CSS,
             and JavaScript.
           </li>
           <li>
-            <span className="webSubhead">Back-end development:</span> Creating
+            <span className="webSidehead">Back-end development:</span> Creating
             the server-side logic that powers website functionality and manages
             data. This often uses languages like Python, Java, or JavaScript.
           </li>
           <li>
-            <span className="webSubhead">Full-stack development:</span>{" "}
+            <span className="webSidehead">Full-stack development:</span>{" "}
             Combining both front-end and back-end development skills.
           </li>
         </ul>
@@ -53,18 +53,18 @@ export const WebDev = () => {
         </p>
         <ul className="wBasic">
           <li>
-            <span className="webSubhead">Creative expression:</span> Bring ideas
+            <span className="webSidehead">Creative expression:</span> Bring ideas
             to life by building interactive and visually appealing web
             experiences. Problem-solving: Devise solutions to technical
             challenges and user needs through code.
           </li>
           <li>
-            <span className="webSubhead">Demand and growth:</span> The field is
+            <span className="webSidehead">Demand and growth:</span> The field is
             in high demand with ample job opportunities and career growth
             potential.{" "}
           </li>
           <li>
-            <span className="webSubhead">Impact:</span> Create websites and
+            <span className="webSidehead">Impact:</span> Create websites and
             applications that can influence and inform people worldwide. Remote
             work possibilities: Many web development roles allow for remote
             work, offering flexibility and location independence.

@@ -46,6 +46,9 @@
   font-size: 40px;
   font-weight: 500;
   margin: 0px 0px 20px 0px;  
+  text-decoration: underline;
+  text-decoration-thickness: 2.5px;
+  text-decoration-color: #01A06B;
 }
 .webSubhead{
   font-size: 18px;
@@ -59,11 +62,12 @@
 }
 .wBasic > li{
   margin: 0px 0px 20px 0px;
+  color: rgba(255, 255, 255, 0.689);
 }
 .er4rsg{
   text-decoration: underline;
   text-decoration-color: #b573f8;
-  text-decoration-thickness: 3px;
+  text-decoration-thickness: 2.5px;
   font-size: 18px;
 }
 .roadmap{
@@ -72,13 +76,13 @@
 .item{
   background:linear-gradient(#0E1319,#0E1319) padding-box,
   linear-gradient(to right,#01A06B, #b573f8) border-box;
-  border: 2px solid transparent;
+  border: 1.3px solid transparent;
   border-radius: 12px; 
   text-align: center;
   width: 60%;
   font-size: 28px;
   padding: 10px;
-  font-weight: 600;
+  font-weight: 500;
   margin: auto;
 }
 .Itext{
@@ -87,7 +91,7 @@
   -webkit-text-fill-color: transparent;
 }
 .path{
-  width: 5px;
+  width: 2.2px;
   height: 90px;
   background-color: #01A06B;
   margin: auto;
