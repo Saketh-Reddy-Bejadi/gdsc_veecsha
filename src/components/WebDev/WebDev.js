@@ -25,11 +25,11 @@ export const WebDev = () => {
       <div className="webContent">
         <p className="webHead">Getting started</p>
         <p className="webSubhead">
-          Web development encompasses the creation and maintenance of websites
+          "Web development" encompasses the creation and maintenance of websites
           and web applications.
         </p>
         <p className="er4rsg">
-          It involves various tasks, including: <br />
+          It involves various tasks, including : <br />
         </p>
         <ul className="wBasic">
           <li>
@@ -74,11 +74,12 @@ export const WebDev = () => {
       <div className="roadmap">
         {data && data.length > 0
           ? data.map((dataItem) => (
-            <a href="/WebDev">
-              <div className="item">
-                <p className="Itext">{dataItem.heading}</p>
-              </div>
-            </a>
+              <>
+                <a className="item" href="/WebDev">
+                  <p className="Itext">{dataItem.heading}</p>
+                </a>
+                {dataItem.id < 5 ? <div className="path"></div> : null}
+              </>
             ))
           : null}
       </div>

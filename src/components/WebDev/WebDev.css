@@ -61,7 +61,13 @@
   margin: 0px 0px 20px 0px;
 }
 .er4rsg{
-  font-style: italic;
+  text-decoration: underline;
+  text-decoration-color: #b573f8;
+  text-decoration-thickness: 3px;
+  font-size: 18px;
+}
+.roadmap{
+  margin:30px auto
 }
 .item{
   background:linear-gradient(#0E1319,#0E1319) padding-box,
@@ -71,14 +77,20 @@
   text-align: center;
   width: 60%;
   font-size: 28px;
-  margin:60px auto;
   padding: 10px;
   font-weight: 600;
+  margin: auto;
 }
 .Itext{
-    background: linear-gradient(90deg,#01A06B,#b573f8);
+  background: linear-gradient(90deg,#01A06B,#b573f8);
   background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+.path{
+  width: 5px;
+  height: 90px;
+  background-color: #01A06B;
+  margin: auto;
 }
 @keyframes IMGanimation {
   0%{
