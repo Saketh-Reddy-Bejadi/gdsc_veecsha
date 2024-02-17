@@ -43,7 +43,7 @@
   padding: 160px;
 }
 .webHead{
-  font-size: 30px;
+  font-size: 40px;
   font-weight: 500;
   margin: 0px 0px 20px 0px;  
 }
@@ -64,13 +64,21 @@
   font-style: italic;
 }
 .item{
-  border: 2px solid white;
-  border-radius: 20px;
+  background:linear-gradient(#0E1319,#0E1319) padding-box,
+  linear-gradient(to right,#01A06B, #b573f8) border-box;
+  border: 2px solid transparent;
+  border-radius: 12px; 
   text-align: center;
-  width: 40%;
-  font-size: 25px;
-  margin:20px auto;
+  width: 60%;
+  font-size: 28px;
+  margin:60px auto;
   padding: 10px;
+  font-weight: 600;
+}
+.Itext{
+    background: linear-gradient(90deg,#01A06B,#b573f8);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 @keyframes IMGanimation {
   0%{

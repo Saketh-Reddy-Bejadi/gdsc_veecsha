@@ -53,7 +53,7 @@ export const WebDev = () => {
         </p>
         <ul className="wBasic">
           <li>
-            <span className="webSubhead">Creativeexpression:</span> Bring ideas
+            <span className="webSubhead">Creative expression:</span> Bring ideas
             to life by building interactive and visually appealing web
             experiences. Problem-solving: Devise solutions to technical
             challenges and user needs through code.
@@ -73,8 +73,14 @@ export const WebDev = () => {
       </div>
       <div className="roadmap">
         {data && data.length > 0
-          ? data.map((dataItem) => <div className="item" >{dataItem.heading}</div>)
-          : "hi"}
+          ? data.map((dataItem) => (
+            <a href="/WebDev">
+              <div className="item">
+                <p className="Itext">{dataItem.heading}</p>
+              </div>
+            </a>
+            ))
+          : null}
       </div>
     </div>
   );
