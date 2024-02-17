@@ -25,23 +25,25 @@ export const WebDev = () => {
       <div className="webContent">
         <p className="webHead">Getting started</p>
         <p className="webSubhead">
-          "Web development" encompasses the creation and maintenance of websites
-          and web applications.
-        </p>
-        <p className="er4rsg">
-          It involves various tasks, including : <br />
+          "Web development" is the art and science of creating websites and web
+          applications. It involves a diverse range of tasks, from crafting the
+          user interface and structure to programming interactivity and
+          functionality and building server-side logic.
         </p>
         <ul className="wBasic">
           <li>
-            <span className="webSidehead">Front-end development:</span> Designing
-            and building the visual elements and interactive features users see
-            and interact with directly. This involves languages like HTML, CSS,
-            and JavaScript.
+            <span className="webSidehead">Front-end development:</span> Focuses
+            on the client-side, what users see and interact with directly user
+            interface (UI) and user experience (UX).
+            <br />
+            <span>Key technologies include:</span>
           </li>
           <li>
-            <span className="webSidehead">Back-end development:</span> Creating
-            the server-side logic that powers website functionality and manages
-            data. This often uses languages like Python, Java, or JavaScript.
+            <span className="webSidehead">Back-end development:</span> deals
+            with the server-side, the behind-the-scenes logic that powers
+            websites. Common technologies include:
+            <br />
+            <span>Key technologies include:</span>
           </li>
           <li>
             <span className="webSidehead">Full-stack development:</span>{" "}
@@ -53,8 +55,8 @@ export const WebDev = () => {
         </p>
         <ul className="wBasic">
           <li>
-            <span className="webSidehead">Creative expression:</span> Bring ideas
-            to life by building interactive and visually appealing web
+            <span className="webSidehead">Creative expression:</span> Bring
+            ideas to life by building interactive and visually appealing web
             experiences. Problem-solving: Devise solutions to technical
             challenges and user needs through code.
           </li>

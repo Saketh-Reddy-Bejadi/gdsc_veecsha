@@ -62,9 +62,10 @@
 }
 .wBasic > li{
   margin: 0px 0px 20px 0px;
-  color: rgba(255, 255, 255, 0.689);
+  color: rgba(255, 255, 255, 0.905);
 }
-.er4rsg{
+.webSidehead{
+  font-weight: 600;
   text-decoration: underline;
   text-decoration-color: #b573f8;
   text-decoration-thickness: 2.5px;
@@ -91,9 +92,9 @@
   -webkit-text-fill-color: transparent;
 }
 .path{
-  width: 2.2px;
+  width: .1px;
   height: 90px;
-  background-color: #01A06B;
+  border:1px dashed #01A06B;
   margin: auto;
 }
 @keyframes IMGanimation {
@@ -142,6 +143,6 @@
     left: 5px;
   }
   .webContent{
-    padding: 20px;
+    padding: 15px;
   }
 }
