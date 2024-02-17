@@ -38,8 +38,39 @@
   animation: IMGanimation 3s ease infinite;
   position: absolute;
   width: 120px;
-
-
+}
+.webContent{
+  padding: 160px;
+}
+.webHead{
+  font-size: 30px;
+  font-weight: 500;
+  margin: 0px 0px 20px 0px;  
+}
+.webSubhead{
+  font-size: 18px;
+  font-weight: 500;
+  margin: 0px 0px 20px 0px;
+}
+.wBasic{
+  margin: 20px;
+  gap: 90px;
+  list-style-type: none;
+}
+.wBasic > li{
+  margin: 0px 0px 20px 0px;
+}
+.er4rsg{
+  font-style: italic;
+}
+.item{
+  border: 2px solid white;
+  border-radius: 20px;
+  text-align: center;
+  width: 40%;
+  font-size: 25px;
+  margin:20px auto;
+  padding: 10px;
 }
 @keyframes IMGanimation {
   0%{
@@ -85,5 +116,8 @@
   .img5{
     top:130px ;
     left: 5px;
+  }
+  .webContent{
+    padding: 20px;
   }
 }

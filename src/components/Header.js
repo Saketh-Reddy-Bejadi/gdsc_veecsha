@@ -10,7 +10,7 @@ export const Header = ({MenuOpen,toggleMenu,viewBox,isOpened}) => {
         <div className='navbar'>
           <a href='/' id='brnd' className='brnd' >Veecsha</a>
           <div className='NavPart2' >
-          <ul>
+          <ul  >
             <Link to="/WebDev"><li className='navBtn webBtn' >Web Development</li></Link>
             <Link to="/DSA"><li className='navBtn dsaBtn'>Data Structures & Algorithms</li></Link>
           </ul>

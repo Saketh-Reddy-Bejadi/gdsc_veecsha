@@ -5,7 +5,7 @@ import { Header } from './components/Header';
 import { Footer } from './components/Footer';
 import { Routes,Route } from 'react-router-dom';
 import { Home } from './components/Home';
-import { WebDev } from './components/WebDev';
+import { WebDev } from './components/WebDev/WebDev';
 import { DSA } from './components/DSA';
 import { Services } from './components/Services';
 

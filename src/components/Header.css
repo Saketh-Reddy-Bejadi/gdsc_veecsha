@@ -27,7 +27,7 @@
     background-clip: text;
     -webkit-text-fill-color: transparent;
 }
-ul{
+.NavPart2 >ul{
     list-style-type: none;
     display: flex;
     align-items: center;
