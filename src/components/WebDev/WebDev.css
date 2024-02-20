@@ -97,6 +97,20 @@
   border:1px dashed #01A06B;
   margin: auto;
 }
+.subItem a{
+  display: inline-block;
+  text-decoration:underline;
+  text-decoration-style: dotted;
+  text-decoration-color: #01A06B;
+  text-decoration-thickness: 2.5px;
+  font-weight: 550;
+}
+.subItem > li{
+  list-style-type: none;
+  margin: auto auto 20px auto;
+  color: rgba(255, 255, 255, 0.719);
+}
+
 @keyframes IMGanimation {
   0%{
     transform: translateY(0)rotate(15deg);
@@ -143,6 +157,9 @@
     left: 5px;
   }
   .webContent{
+    padding: 15px;
+  }
+  .subItem{
     padding: 15px;
   }
 }
