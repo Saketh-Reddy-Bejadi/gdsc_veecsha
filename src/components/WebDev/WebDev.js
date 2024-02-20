@@ -37,27 +37,39 @@ export const WebDev = () => {
                 <div key={k}>
                   {t.cate.map((category, m) => (
                     <li key={m}>
-                      <span className="webSidehead">{category.head}</span>
+                      <span className="webSidehead">
+                        <a
+                          href={
+                            category.head === "Front-end development:"
+                              ? "/Frontend"
+                              : category.head === "Back-end development:"
+                              ? "/Backend"
+                              : "/FullStack"
+                          }
+                        >
+                          {category.head}{" "}
+                        </a>
+                      </span>
                       {category.content} <br />
                       <span>{category.sidetech}</span>
-                      {category.techs?        <ul className="subItem">
-                        {category.techs.map((tech, n) => (
-                          <li key={n}>
-                            <span className="subIsh">
-                              <a href="/">{tech.subhead}</a>
-                            </span>
-                            {tech.explaination}
-                          </li>
-                        ))}
-                      </ul>:null}
+                      {category.techs ? (
+                        <ul className="subItem">
+                          {category.techs.map((tech, n) => (
+                            <li key={n}>
+                              <span className="subIsh">
+                                <a href="/">{tech.subhead}</a>
+                              </span>
+                              {tech.explaination}
+                            </li>
+                          ))}
+                        </ul>
+                      ) : null}
                     </li>
                   ))}
                 </div>
               ))
             : null}
-
         </ul>
-        
       </div>
       <div className="roadmap">
         {data && data.length > 0

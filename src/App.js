@@ -8,6 +8,7 @@ import { Home } from './components/Home';
 import { WebDev } from './components/WebDev/WebDev';
 import { DSA } from './components/DSA';
 import { Services } from './components/Services';
+import { Frontend } from './components/WebDev/Frontend';
 
 export const App = () => {
 
@@ -34,6 +35,7 @@ export const App = () => {
           <Route path='/Home' element={<Home/>} />
           <Route path='/DSA' element={<DSA/>} />
           <Route path='/Services' element={<Services/>} />
+          <Route path='Frontend' element={<Frontend/>}/>
         </Routes>
       </main>  
       <Footer/>
