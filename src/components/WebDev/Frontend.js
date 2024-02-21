@@ -11,12 +11,12 @@ export const Frontend = () => {
     <>
       <div className="Frontend">
         <p className="webHead">Getting started</p>
-        <span>
+        <p className="webSubhead">
           Frontend web development is the creation of the visual and interactive
           aspects of websites or web applications that users directly interact
           with in their browsers. It involves designing the layout, appearance,
           and functionality to ensure a seamless user experience.
-        </span>
+        </p>
         <ul className="subItem">
           {frontendData.map((info, s) => (
             <li key={s}>
