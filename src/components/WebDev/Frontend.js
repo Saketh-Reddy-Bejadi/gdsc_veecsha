@@ -1,8 +1,12 @@
 import React from "react";
 import "./Frontend.css";
+import { useEffect } from "react";
 import { frontendRoadmap, frontendData } from "./data";
 
 export const Frontend = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <>
       <div className="Frontend">

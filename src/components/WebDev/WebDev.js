@@ -6,11 +6,28 @@ import reactJS from "../../assets/reactJS.svg";
 import nodeJS from "../../assets/nodejs.svg";
 import { useEffect } from "react";
 import data, { webDev } from "./data";
+import { Link } from "react-router-dom";
 
 export const WebDev = () => {
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
+  const SetPath = (value) => {
+    switch (value) {
+      case 1:
+        return "/Frontend";
+      case 2:
+        return "/Backend";
+      case 3:
+        return "/Database";
+      case 4:
+        return "/Deveops";
+      case 5:
+        return "/CloudComputing";
+      default:
+        return "/WebDev";
+    }
+  };
 
   return (
     <div className="WebDev">
@@ -75,9 +92,9 @@ export const WebDev = () => {
         {data && data.length > 0
           ? data.map((dataItem, j) => (
               <div key={j}>
-                <a className="item" href="/WebDev">
+                <Link className="item" to={SetPath(dataItem.id)}>
                   <p className="Itext">{dataItem.heading}</p>
-                </a>
+                </Link>
                 {dataItem.id < 5 ? <div className="path"></div> : null}
               </div>
             ))
