@@ -22,7 +22,6 @@ const data = [
 ];
 export default data;
 
-
 const webDev = [
   {
     type: "web",
@@ -74,11 +73,78 @@ const webDev = [
         ],
       },
       {
-        head:'Full-stack development',
-        content:" building both the front-end (what users see and interact with) and the back-end (the 'behind-the-scenes' workings) of a website or web application. It's like being a chef who can both cook and decorate a cake. Full stack developers know how to handle everything from designing the look of a website to making sure it works smoothly and securely behind the scenes."
-      }
+        head: "Full-stack development",
+        content:
+          " building both the front-end (what users see and interact with) and the back-end (the 'behind-the-scenes' workings) of a website or web application. It's like being a chef who can both cook and decorate a cake. Full stack developers know how to handle everything from designing the look of a website to making sure it works smoothly and securely behind the scenes.",
+      },
     ],
   },
 ];
 
 export { webDev };
+
+const frontendData = [
+  {
+    Fhead: "HTML (HyperText Markup Language) : ",
+    Fcontent:
+      "Defines the structure and content of web pages using a markup language. ||| Includes elements like headings, paragraphs, lists, links, images, etc. ",
+  },
+  {
+    Fhead: "CSS (Cascading Style Sheets) : ",
+    Fcontent:
+      "Controls the presentation and layout of HTML elements.|||Defines styles such as colors, fonts, spacing, and positioning.|||Can be applied inline, embedded, or as an external stylesheet.",
+  },
+  {
+    Fhead: "JavaScript : ",
+    Fcontent:
+      "Adds interactivity and dynamic behavior to web pages.|||Allows for manipulation of HTML and CSS, event handling, and asynchronous communication with servers.|||Used for client-side scripting, enabling features like form validation, animations, and AJAX.",
+  },
+  {
+    Fhead: "Frontend Frameworks and Libraries",
+    Fcontent: [
+      {
+        head: "Frameworks : ",
+        content:
+          "Provide a structured environment and pre-defined patterns for building web applications.",
+        example: "React.js, Angular, Vue.js",
+      },
+      {
+        head: "Libraries : ",
+        content:
+          "Collections of pre-written code that simplify common tasks and enhance functionality",
+        example: "jQuery, Bootstrap, Semantic UI",
+      },
+    ],
+  },
+  {
+    Fhead: "Responsive Web Design",
+    Fcontent:
+      "Ensures that web pages render well on a variety of devices and window or screen sizes.|||Utilizes CSS media queries, flexible grids, and responsive images to adapt to different viewport sizes.",
+  },
+];
+
+export { frontendData };
+
+const frontendRoadmap = [
+  {
+    id: 1,
+    heading: "HTML",
+  },
+  {
+    id: 2,
+    heading: "CSS",
+  },
+  {
+    id: 3,
+    heading: "Javascript",
+  },
+  {
+    id: 4,
+    heading: "Frameworks",
+  },
+  {
+    id: 5,
+    heading: "Responsive Design",
+  },
+];
+export { frontendRoadmap };

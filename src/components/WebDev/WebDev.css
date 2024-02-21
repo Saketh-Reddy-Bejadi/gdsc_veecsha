@@ -1,11 +1,10 @@
-.WebDev{
+.WebDev {
   width: 100%;
- 
 }
-.webH{
-  text-shadow:5px 5px 10px rgba(255, 255, 255, 0.164);
+.webH {
+  text-shadow: 5px 5px 10px rgba(255, 255, 255, 0.164);
 }
-.WebCon1{
+.WebCon1 {
   height: 100svh;
   display: flex;
   justify-content: center;
@@ -13,153 +12,154 @@
   align-items: center;
   font-weight: 550;
 }
-.img1{
-
+.img1 {
   top: 160px;
   left: 180px;
 }
-.img2{
+.img2 {
   top: 110px;
-  left:600px;
+  left: 600px;
 }
-.img3{
+.img3 {
   top: 130px;
   right: 190px;
 }
-.img4{
+.img4 {
   bottom: 90px;
   left: 400px;
 }
-.img5{
+.img5 {
   bottom: 90px;
   left: 730px;
 }
-.WebCon1 img{
+.WebCon1 img {
   animation: IMGanimation 3s ease infinite;
   position: absolute;
   width: 120px;
 }
-.webContent{
+.webContent {
   padding: 160px;
 }
-.webHead{
+.webHead {
   font-size: 40px;
   font-weight: 500;
-  margin: 0px 0px 20px 0px;  
+  margin: 0px 0px 20px 0px;
   text-decoration: underline;
   text-decoration-thickness: 2.5px;
-  text-decoration-color: #01A06B;
+  text-decoration-color: #01a06b;
 }
-.webSubhead{
+.webSubhead {
   font-size: 18px;
   font-weight: 500;
   margin: 0px 0px 20px 0px;
 }
-.wBasic{
+.wBasic {
   margin: 20px;
   gap: 90px;
   list-style-type: none;
 }
-.wBasic > li{
+.wBasic > li {
   margin: 0px 0px 20px 0px;
   color: rgba(255, 255, 255, 0.905);
 }
-.webSidehead{
+.webSidehead {
   font-weight: 600;
   text-decoration: underline;
   text-decoration-color: #b573f8;
   text-decoration-thickness: 2.5px;
   font-size: 18px;
 }
-.roadmap{
-  margin:30px auto
+.roadmap {
+  margin: 30px auto;
 }
-.item{
-  background:linear-gradient(#0E1319,#0E1319) padding-box,
-  linear-gradient(to right,#01A06B, #b573f8) border-box;
+.item {
+  background: linear-gradient(#0e1319, #0e1319) padding-box,
+    linear-gradient(to right, #01a06b, #b573f8) border-box;
   border: 1.3px solid transparent;
-  border-radius: 12px; 
+  border-radius: 12px;
   text-align: center;
-  width: 60%;
+  width: 30%;
   font-size: 28px;
   padding: 10px;
   font-weight: 500;
   margin: auto;
 }
-.Itext{
-  background: linear-gradient(90deg,#01A06B,#b573f8);
+.Itext {
+  background: linear-gradient(90deg, #01a06b, #b573f8);
   background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-.path{
-  width: .1px;
+.path {
+  width: 0.1px;
   height: 90px;
-  border:1px dashed #01A06B;
+  border: 1px dashed #01a06b;
   margin: auto;
 }
-.subItem a{
+.subItem a {
   display: inline-block;
-  text-decoration:underline;
+  text-decoration: underline;
   text-decoration-style: dotted;
-  text-decoration-color: #01A06B;
+  text-decoration-color: #01a06b;
   text-decoration-thickness: 2.5px;
   font-weight: 550;
 }
-.subItem > li{
+.subItem > li {
   list-style-type: none;
   margin: auto auto 20px auto;
   color: rgba(255, 255, 255, 0.719);
 }
 
 @keyframes IMGanimation {
-  0%{
-    transform: translateY(0)rotate(15deg);
+  0% {
+    transform: translateY(0) rotate(15deg);
   }
-  50%{
-    transform: translateY(-5px)rotate(15deg);
+  50% {
+    transform: translateY(-5px) rotate(15deg);
   }
-  100%{
-    transform: translateY(0)rotate(15deg);
+  100% {
+    transform: translateY(0) rotate(15deg);
   }
 }
 
-
 @media only screen and (max-width: 600px) {
-  .webH{
+  .webH {
     font-size: 50px;
     text-align: center;
   }
-  .WebCon1 img{
+  .WebCon1 img {
     width: 90px;
   }
-  .img1{
+  .img1 {
     top: 80px;
     left: auto;
     right: 80px;
   }
-  .img2{
+  .img2 {
     top: 280px;
     right: 30px;
     left: auto;
   }
-  .img4{
+  .img4 {
     top: auto;
     bottom: 110px;
     left: 50px;
   }
-  .img3{
+  .img3 {
     top: auto;
     bottom: 30px;
     right: 10px;
   }
-  .img5{
-    top:130px ;
+  .img5 {
+    top: 130px;
     left: 5px;
   }
-  .webContent{
+  .webContent {
     padding: 15px;
   }
-  .subItem{
+  .subItem {
     padding: 15px;
+  }
+  .item {
+    width: 65%;
   }
 }
