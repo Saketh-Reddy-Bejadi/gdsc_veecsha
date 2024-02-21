@@ -95,6 +95,11 @@ const frontendData = [
       "Controls the presentation and layout of HTML elements.|||Defines styles such as colors, fonts, spacing, and positioning.|||Can be applied inline, embedded, or as an external stylesheet.",
   },
   {
+    Fhead: "Responsive Web Design",
+    Fcontent:
+      "Ensures that web pages render well on a variety of devices and window or screen sizes.|||Utilizes CSS media queries, flexible grids, and responsive images to adapt to different viewport sizes.",
+  },
+  {
     Fhead: "JavaScript : ",
     Fcontent:
       "Adds interactivity and dynamic behavior to web pages.|||Allows for manipulation of HTML and CSS, event handling, and asynchronous communication with servers.|||Used for client-side scripting, enabling features like form validation, animations, and AJAX.",
@@ -115,11 +120,6 @@ const frontendData = [
         example: "jQuery, Bootstrap, Semantic UI",
       },
     ],
-  },
-  {
-    Fhead: "Responsive Web Design",
-    Fcontent:
-      "Ensures that web pages render well on a variety of devices and window or screen sizes.|||Utilizes CSS media queries, flexible grids, and responsive images to adapt to different viewport sizes.",
   },
 ];
 
