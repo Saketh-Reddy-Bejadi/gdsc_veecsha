@@ -1,9 +1,9 @@
 import "./DSA.css";
-import java from "../assets/java.svg";
-import python from "../assets/python.svg";
-import js from "../assets/js.svg";
-import cpp from "../assets/c++.svg";
-import c_pro from "../assets/c-pro.svg";
+import java from "../../assets/java.svg";
+import python from "../../assets/python.svg";
+import js from "../../assets/js.svg";
+import cpp from "../../assets/c++.svg";
+import c_pro from "../../assets/c-pro.svg";
 import { useEffect } from "react";
 
 
