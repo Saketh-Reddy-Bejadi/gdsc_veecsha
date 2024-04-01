@@ -31,9 +31,28 @@
     transition: all 0.5s ease-in-out;
   }
 
-  .SBcontents a:hover {
-    text-decoration: underline;
-    text-decoration-thickness: 2.5px;
-    text-decoration-color: #b573f8;
+  .SBcontents>a{
+    border-color:rgb(0, 0, 0);
+    border-width:0px 0px 3px 0px;
+    border-style: solid;
+    padding: 20px 0px 0px 0px;
+    display: block;
+    position: relative; 
   }
+  
+  .SBcontents a:after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0%;
+    height: 3px;
+    background: linear-gradient(to left, transparent 0%, #b573f8 100%); 
+    transition: width 0.5s ease-in-out; 
+  }
+  
+  .SBcontents a:hover:after {
+    width: 70%; 
+  }
+  
 }
