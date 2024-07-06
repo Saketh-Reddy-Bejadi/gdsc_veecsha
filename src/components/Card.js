@@ -1,6 +1,6 @@
 import React from 'react'
 
-export const Card = ({value,SubContent,Content,logo}) => {
+const Card = ({value,SubContent,Content,logo}) => {
     const SetColor=()=>{
         switch (value) {
             case 1:return "#a04df311";
@@ -28,3 +28,4 @@ export const Card = ({value,SubContent,Content,logo}) => {
     </div>
   )
 }
+export default Card;

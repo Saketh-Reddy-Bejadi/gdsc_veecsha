@@ -1,6 +1,6 @@
 import React from "react";
 import "./Page2.css";
-import { Card } from "./Card";
+import Card  from "./Card";
 import focus from "../assets/target.svg";
 import practical from "../assets/practical.svg";
 import filter from "../assets/filter.svg";
